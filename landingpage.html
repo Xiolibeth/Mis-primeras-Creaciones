@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chollazos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/landingpage.css">
+    <link rel="stylesheet" href="/CSS/limpiezaestilos.css">
+</head>
+<body>
+    <header>
+        <div id="contcohallazos">
+            <h1 id="chillostitulo">Chollazos</h1>
+            <p id="parrafoheader">Aqui encontraras los mejores chollos a los mejores precios, sucribete ya y recibelo.</p>
+            <p id="boton1">Sucribete</p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="contregistrarse">
+                <form action="contact.php" method="post"> 
+                <label for="name">Nombre</label> 
+                <input type="text" id="name" name="visitor_name" placeholder="Nombre" pattern=[A-Z\sa-z]{3,20} required> 
+                <label for="email">Correo electrónico</label> 
+                <input type="email" id="email" name="visitor_email" placeholder="ejemplo@email.com" required> 
+                <label for="department-selection">Área a contactar</label> 
+                <select id="department-selection" name="concerned_department" required> 
+                <option value="">Selecciona un área</option> 
+                <option value="billing">Facturación</option> 
+                <option value="marketing">Ropa</option> <option value="technical support">Servicio al cliente</option></select>
+                <label for="title">Motivo de contacto</label> 
+                <input type="text" id="title" name="email_title" required placeholder="Problema/Consulta" pattern=[A-Za-z0-9\s]{8,60}> 
+                <label for="message">Solicitud</label> 
+                <textarea id="message" name="visitor_message" placeholder="Escribe tu mensaje aquí." required></textarea>
+                <button type="submit">Enviar mensaje</button></form>
+            </div>
+        </section>
+   </main>
+    <footer>
+        <nav id="navelfooter">
+            <ol id="listafooter">
+                <a href="https://twitter.com/?lang=es" target="_blank"><li>twitter</li></a>
+                <a href="https://es-es.facebook.com/" target="_blank"><li>facebook</li></a>
+                <a href="https://www.instagram.com/" target="_blank"><li>instagram</li></a>
+            </ol>
+        </nav>
+    </footer>
+</body>
+</html>

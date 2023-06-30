@@ -1,0 +1,76 @@
+body{
+    font-family: 'Sigmar', cursive;
+    background-color: darksalmon;
+    font-size: large;
+    
+}
+
+#contcohallazos{
+    padding: 5rem;
+    
+}
+
+#chillostitulo{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#parrafoheader{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#boton1{
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+    width: 20%;
+    padding: 1rem;
+    border-radius: 2rem ;
+    background-color: cornflowerblue;
+}
+
+#contregistrarse {
+    /* border: 1px solid black; */
+    padding: 2rem;
+    background-color:cornflowerblue;
+    width: 70%;
+    margin: auto;
+    border-radius: 2rem;
+    border: 1px solid chocolate;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+#listafooter{
+    margin: auto;
+    border-radius: 2rem;
+    width: 70%;
+    margin-top: 10rem;
+    padding: 5rem;
+    border: 1px solid chocolate;
+    box-shadow: 5px 5px 10px gray;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+}
+a{  
+    border:1px solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color: chocolate;
+    box-shadow: 5px 5px 10px black;
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color:chocolate
+}
